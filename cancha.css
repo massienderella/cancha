@@ -1,0 +1,86 @@
+.cancha{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #006400;
+}
+
+.borde-lateral{
+    width: 920px; 
+    height: 420px; 
+    border: 3px solid grey;
+    position: absolute;
+	bottom: 40px;
+	left: 40px;
+}
+
+.borde-arco1{
+	width: 120px; 
+    height: 200px; 
+    border: 3px solid grey;
+    position: absolute;
+	bottom: 150px;
+	left: 40px;
+}
+
+.borde-arco2{
+	width: 120px; 
+    height: 200px; 
+    border: 3px solid grey;
+    position: absolute;
+	bottom: 150px;
+	right: 34px;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #006400;
+    border: 3px solid grey;
+    position: absolute;
+	bottom: 150px;
+	right: 400px;
+}
+
+.ficha1 {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    position: absolute;
+	bottom: 170px;
+	right: 165px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.ficha2 {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    position: absolute;
+	bottom: 330px;
+	left: 150px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.ficha3 {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    position: absolute;
+	bottom: 390px;
+	right: 470px;
+    box-shadow: 1px 1px 8px black;
+}
